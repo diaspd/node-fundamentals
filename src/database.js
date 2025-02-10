@@ -6,7 +6,7 @@ export class Database {
   #database = {}
 
   constructor() {
-    fs.readFile(databasePath, 'utf-8')
+    fs.readFile(databasePath, 'utf8')
       .then(data => {
         this.#database = JSON.parse(data)
       })
@@ -32,8 +32,17 @@ export class Database {
       this.#database[table] = [data]
     }
 
-    this.#persist();
+    this.#persist()
 
-    return data;
+    return data
+  }
+
+  delete(table, id) {
+    const rowIndex = this.#database[table].findIndex(row => row.id === id)
+
+    if (rowIndex > -1) {
+      this.#database[table].splice(rowIndex, 1)
+      this.#persist()
+    }
   }
 }
