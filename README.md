@@ -34,7 +34,8 @@ $ npm run dev
 ## Test
 
 <h2>Methods: </h2>
-GET : `http://localhost:3000/users/count` </br>
+
+GET: `http://localhost:3000/users` </br>
 
 <br></br>
 
