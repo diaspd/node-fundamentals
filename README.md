@@ -44,6 +44,7 @@ GET: `http://localhost:3000/users` </br>
 This project was developed with the following technologies:
 <b>
 - NodeJs
+- Java Script
 </b>
 
 </br>
