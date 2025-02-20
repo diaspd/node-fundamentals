@@ -37,6 +37,7 @@ $ npm run dev
 
 GET: `http://localhost:3000/users` </br>
 DELETE: `http://localhost:3000/users/:id` </br>
+PUT: `http://localhost:3000/users/:id` </br>
 
 <br></br>
 
