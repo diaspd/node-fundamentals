@@ -36,6 +36,7 @@ $ npm run dev
 <h2>Methods: </h2>
 
 GET: `http://localhost:3000/users` </br>
+DELETE: `http://localhost:3000/users/:id` </br>
 
 <br></br>
 
