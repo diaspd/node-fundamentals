@@ -32,7 +32,7 @@ $ npm install
 $ npm run dev
 ```
 
-<h2>Methods: </h2>
+## 🌐 Methods:
 
 GET: `http://localhost:3000/users` </br>
 POST: `http://localhost:3000/users` (passing on body of the requisition: {name="your name", email="your email"})</br>
