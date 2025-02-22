@@ -36,6 +36,7 @@ $ npm run dev
 <h2>Methods: </h2>
 
 GET: `http://localhost:3000/users` </br>
+POST: `http://localhost:3000/users` (passing on body of the requisition: {name="your name", email="your email"})</br>
 DELETE: `http://localhost:3000/users/:id` </br>
 PUT: `http://localhost:3000/users/:id` </br>
 
