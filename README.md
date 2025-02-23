@@ -52,7 +52,7 @@ This project was developed with the following technologies:
 </br>
 
 ## 📄 Project
-💰.
+💰 A project node make to create users, delete and filter them.
 
 <br></br>
 
